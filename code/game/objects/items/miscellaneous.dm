@@ -196,7 +196,7 @@
 	pets = list("Jruttie" = /mob/living/simple_animal/pet/cat/jruttie)
 
 /obj/item/choice_beacon/pet/juda
-	pets = list("Juda" = /mob/living/simple_animal/pet/dog/juda)
+	pets = list("Judas" = /mob/living/simple_animal/pet/dog/juda)
 
 /obj/item/choice_beacon/pet/generate_display_names()
 	return pets
