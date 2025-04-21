@@ -13,7 +13,7 @@
 
 /obj/item/modkit/impactbaton_kit
 	name = "Impact Baton Kit"
-	desc = "A modkit for making a police baton into an impact baton."
+	desc = "A modkit for making a police baton into a jitte baton."
 	product = /obj/item/melee/classic_baton/impactbaton_jitte
 	fromitem = list(/obj/item/melee/classic_baton)
 
@@ -29,7 +29,7 @@
 
 /obj/item/modkit/catcrinbaton_kit
 	name = "3/51-H Telescopic Baton Kit"
-	desc = "A modkit for making a police baton into an impact baton."
+	desc = "A modkit for making a telescopic baton into an impact baton."
 	product = /obj/item/melee/classic_baton/telescopic/catcrin
 	fromitem = list(/obj/item/melee/classic_baton/telescopic)
 
@@ -44,3 +44,15 @@
 	on_item_state = "hardlightbaton_1"
 	lefthand_file = 'modular_bluemoon/fluffs/icons/mob/inhands/melee_lefthand.dmi'
 	righthand_file = 'modular_bluemoon/fluffs/icons/mob/inhands/melee_righthand.dmi'
+
+/obj/item/modkit/esword_kit
+	name = "Energy sword Kit"
+	desc = "A modkit for making a plasma sword into an energy sword."
+	product = /obj/item/melee/transforming/energy/sword/saber
+	fromitem = list(/obj/item/melee/transforming/plasmasword)
+
+/obj/item/modkit/desword_kit
+	name = "Double-bladed energy sword Kit"
+	desc = "A modkit for making a plasma scythe into an double-bladed energy sword."
+	product = /obj/item/dualsaber
+	fromitem = list(/obj/item/plasmascythe)

@@ -334,7 +334,7 @@
 	key_third_person = "girlymoan"
 	message = "softly moans."
 	message_mime = "silently moans."
-	sound = 'modular_bluemoon/sound/emotes/softmoan1.ogg'
+	sound = 'modular_bluemoon/sound/emotes/softmoan6.ogg'
 	emote_type = EMOTE_AUDIBLE
 	emote_cooldown = 0.8 SECONDS
 	emote_pitch_variance = FALSE
