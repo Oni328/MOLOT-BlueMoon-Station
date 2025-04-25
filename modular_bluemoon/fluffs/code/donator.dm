@@ -758,6 +758,20 @@
 	ckeywhitelist = list("oni3288", "ghos7ik", "discord980", "mihana964", "romontesque", "enigma418", "smol42", "notlikeluls",  "kladmenuwu", "alexsandoor", "scramblescream", "nai1ten", "devildeadspace", "zetneskov", "hazzi", "definitelynotnesuby", "silverfoxpaws", "pr1zrak", "earthphobia", "wafflemeow", "trora", "kosep", "urfdrf", "mikolaostavkin", "xaeshkavd", "deltarayx", "korinfellori", "troubleneko17th", "dimofon", "lichfail", "gisya", "dimakr")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
+/datum/gear/donator/bm/pedantcape
+	name = "Corvus Pendant"
+	slot = ITEM_SLOT_BACKPACK
+	path = /obj/item/clothing/neck/tie/pendantcape
+	ckeywhitelist = list("smol42", "weirdbutton", "sage4or")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/tricorne
+	name = "Tricorne"
+	slot = ITEM_SLOT_BACKPACK
+	path = /obj/item/clothing/head/tricorne
+	ckeywhitelist = list("smol42", "weirdbutton", "sage4or")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
 /datum/gear/donator/bm/oftok
 	name = "Officer token"
 	slot = ITEM_SLOT_BACKPACK
@@ -1398,20 +1412,27 @@
 	name = "MI13 infiltrator mask"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/mask/gas/syndicate/hahun_mask
-	ckeywhitelist = list("dolbajob", "enigma418")
+	ckeywhitelist = list("dolbajob", "enigma418", "silverfoxpaws")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/hahun_mask_2
 	name = "EIDOVOX Type-3 mask"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/mask/gas/syndicate/hahun_mask/eidovox
-	ckeywhitelist = list("dolbajob", "enigma418", "silverfoxpaws")
+	ckeywhitelist = list("dolbajob", "enigma418")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/hahun_cape
 	name = "MI13 cape"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/neck/tie/hahun_cape
+	ckeywhitelist = list("dolbajob", "enigma418")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/hahun_jukebox
+	name = "Irrelian Jukebox"
+	slot = ITEM_SLOT_BACKPACK
+	path = /obj/item/modkit/hahun_jukebox
 	ckeywhitelist = list("dolbajob", "enigma418")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
@@ -1439,4 +1460,11 @@
 	path = /obj/item/clothing/shoes/jackboots/sec/white
 	ckeywhitelist = list("earthphobia")
 	restricted_roles = list("Head of Security")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/sierra_iris_plushie
+	name = "I.R.I.S. plushie"
+	slot = ITEM_SLOT_POCKETS
+	path = /obj/item/toy/plush/bm/tiamat/sierra_iris_plushie
+	ckeywhitelist = list("sierraiv", "oroshimuraiori")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
