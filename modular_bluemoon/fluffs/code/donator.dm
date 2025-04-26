@@ -1493,3 +1493,10 @@
 	ckeywhitelist = list("hellsinggc")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
+/datum/gear/donator/bm/echoes_jacket
+    name = "Technical Jacket"
+    slot = ITEM_SLOT_BACKPACK
+    path = /obj/item/clothing/suit/donator/bm/echoes_jacket
+    ckeywhitelist = list("xaeshkavd")
+    subcategory = LOADOUT_SUBCATEGORIES_DON02
+
