@@ -1800,3 +1800,36 @@
 	path = /obj/item/clothing/accessory/armband/sfparmband
 	ckeywhitelist = list("pingvas", "ordinarylife", "leony24", "kennedykiller", "theatlasplay", "ninjapikachushka", "devildeadspace", "trustmeimengineer", "izakfromrus")
 	subcategory = LOADOUT_SUBCATEGORIES_DON03
+
+/datum/gear/donator/bm/bongepop_boxers
+	name = "Bongepop Boxers"
+	slot = ITEM_SLOT_UNDERWEAR
+	path = /obj/item/clothing/underwear/briefs/bongepop
+	ckeywhitelist = list("ordinarylife", "leony24", "kennedykiller", "theatlasplay", "ninjapikachushka", \
+	"devildeadspace", "trustmeimengineer", "izakfromrus", "hazzi", "dolbajob", "vulpshiro")
+	subcategory = LOADOUT_SUBCATEGORIES_DON03
+
+/datum/gear/donator/bm/breadboots
+	name = "Breadshoe"
+	slot = ITEM_SLOT_FEET
+	path = /obj/item/clothing/shoes/breadboots
+	ckeywhitelist = list("ordinarylife")
+	subcategory = LOADOUT_SUBCATEGORIES_DON03
+
+/datum/gear/donator/bm/breadboots/baguette
+	name = "Baguetteshoe"
+	path = /obj/item/clothing/shoes/breadboots/baguette
+
+/datum/gear/donator/bm/breadpack
+	name = "Breadpack"
+	slot = ITEM_SLOT_HANDS
+	path = /obj/item/storage/backpack/breadpack
+	ckeywhitelist = list("ordinarylife")
+	subcategory = LOADOUT_SUBCATEGORIES_DON03
+
+/datum/gear/donator/bm/pet_emma
+	name = "Emma Fox"
+	slot = ITEM_SLOT_BACKPACK
+	path = /obj/item/choice_beacon/pet/emma
+	ckeywhitelist = list("ordinarylife")
+	subcategory = LOADOUT_SUBCATEGORIES_DON03
